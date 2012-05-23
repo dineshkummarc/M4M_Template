@@ -1,0 +1,139 @@
+@import "reset.css";
+
+body {
+	font-family: Lucida Grande, Arial, Helvetica, Sans-Serif;
+	background: #77879e;
+}
+
+/* @group Stupid Graphics and Replaces */
+
+span, h1, h2 {
+	display: none;
+}
+
+div#page {
+	background: url(http://mad4milk.net/assets/images/background.png) no-repeat center top;
+	position: relative;
+	width: 600px;
+	height: 538px;
+	margin: 0 auto;
+}
+
+div#page a {
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+a#mootools:hover, a#mediatemple:hover, a#copy:hover, a#moofx:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+a#mootools {
+	top: 450px;
+	left: 90px;
+	background-image: url(http://mad4milk.net/assets/images/mootools.png);
+	width: 131px;
+	height: 33px;
+}
+
+a#copy {
+	top: 570px;
+	left: 240px;
+	background-image: url(http://mad4milk.net/assets/images/copy.png);
+	width: 135px;
+	height: 9px;
+}
+
+a#mediatemple {
+	top: 460px;
+	left: 390px;
+	background-image: url(http://mad4milk.net/assets/images/mediatemple.png);
+	width: 114px;
+	height: 20px;
+}
+
+a#moofx {
+	top: 455px;
+	left: 260px;
+	background-image: url(http://mad4milk.net/assets/images/moofx.png);
+	width: 84px;
+	height: 28px;
+}
+
+a#contact:link, a#contact:visited {
+	opacity: 0.6;
+	top: 410px;
+	left: 270px;
+	color: #fff;
+	text-shadow: 2px 2px 1px #657792;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+a#contact:hover, a#contact:active {
+	opacity: 1;
+	color: #2e394a;
+}
+
+/* @end */
+
+/* @group Form */
+
+div#form {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: -7000px;
+	padding-top: 10px;
+}
+
+div#form div.form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+div#box {
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: #000;
+	width: 100%;
+}
+	
+input.text, textarea {
+	width: 500px;
+	background: #fff;
+	font-size: 13px;
+	color: #222;
+	padding: 2px 3px;
+}
+
+label {
+	color: #141b25;
+	display: block;
+	font-size: 11px;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 2px 2px 1px #141b25;
+	margin: 6px 0;
+}
+
+textarea {
+	height: 345px;
+	margin-bottom: 10px;
+}
+
+p.submit {
+	text-align: center;
+}
+
+p.submit img {
+	cursor: pointer;
+}
+
+/* @end */
